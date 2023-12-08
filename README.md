@@ -3,7 +3,7 @@
 
 This project is aimed at solving three problems:
 
-1. Converting a 12-hour time to 24-hour time
+1. Converting a 12-hour time to 24-hour time e.g converting 8:30 am to 0830 hrs
 2. Checking if exactly two out three integers passed into a function are positive numbers and returning True e.g.passing (2, 4, -3) into the function returns True
 3. Returning the highest value of consonant substrings e.g. 
     For example, for the word "zodiacs", let's cross out the vowels. We get: "z d cs"

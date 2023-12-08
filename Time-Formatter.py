@@ -14,6 +14,6 @@ def time_convertor(hr, min, time_period):
     #02-> width of the input field: in this case the width of the hour and minute inputs
         #Even if the hour has only one digit, a zero will be added to it by default because of the specified format
     time="{:02d}{:02d}".format(hr,min) #outputting the result in decimal format
-    print(time)
+    print(f"{time}hrs")
 
 time_convertor(1,30,"am")
