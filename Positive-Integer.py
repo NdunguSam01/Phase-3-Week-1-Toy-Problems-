@@ -6,7 +6,6 @@ def positive_integer(a, b, c):
     total_positive_integers=0
 
     #Creating and if statement that checks if the passed in arguments are positive integers
-
     if a > 0:
         #Updating the number of positive integers if the condition is met
         total_positive_integers += 1

@@ -8,12 +8,13 @@ def consonant_value_calculator(string):
     current_value=0
 
     #Checking if a character in the passed string is a vowel and returning only the characters that are not 
-
     for character in string:
         if character not in vowels:
+
             #Using the ord() function to calculate the value of the character for the starting character (a)
                 #ord() returns the number representing the unicode code of a specified character
             value=ord(character) - ord("a") + 1
+
             #Updating the current value variable to equal the calculated value
             current_value += value
         

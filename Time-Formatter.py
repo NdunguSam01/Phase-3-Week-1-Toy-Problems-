@@ -1,5 +1,4 @@
 #Defining the function to convert time from 12 hour to 24 hour format
-
 def time_convertor(hr, min, time_period):
 
     #Since we add 12 once the clock passes 12pm in the 24 hour clock format, we check if the time period is pm and if the time is not equal to 12 (after 12 pm, 12 is added to all subsequent hours)
